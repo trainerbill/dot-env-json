@@ -1,0 +1,50 @@
+{
+  "name": "dotenv-json",
+  "version": "0.0.0",
+  "description": "package similar to dotenv that reads from JSON file.",
+  "homepage": "",
+  "author": {
+    "name": "Andrew Throener",
+    "email": "athroener@mystartupsolutions.com",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "dotenv",
+    "json",
+    "configuration",
+    "environment",
+    "variables"
+  ],
+  "devDependencies": {
+    "coveralls": "^2.13.1",
+    "eslint": "^4.1.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^21.0.0",
+    "jest-cli": "^21.0.0",
+    "nsp": "^2.6.3"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix",
+    "test": "jest --watch --verbose"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "repository": "trainerbill/dotenv-json",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "app-root-path": "^2.0.1"
+  }
+}

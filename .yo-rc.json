@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Andrew Throener",
+      "authorEmail": "athroener@mystartupsolutions.com",
+      "authorUrl": ""
+    }
+  }
+}
