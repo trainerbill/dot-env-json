@@ -1,6 +1,6 @@
 {
   "name": "dot-env-json",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "package similar to dotenv that reads from JSON file.",
   "homepage": "",
   "author": {
