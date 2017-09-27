@@ -1,5 +1,5 @@
 {
-  "name": "dotenv-json",
+  "name": "dot-env-json",
   "version": "0.0.0",
   "description": "package similar to dotenv that reads from JSON file.",
   "homepage": "",
@@ -39,7 +39,7 @@
       "node": true
     }
   },
-  "repository": "trainerbill/dotenv-json",
+  "repository": "trainerbill/dot-env-json",
   "jest": {
     "testEnvironment": "node"
   },
