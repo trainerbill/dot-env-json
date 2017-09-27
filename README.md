@@ -28,7 +28,7 @@ dotenv({
 ```
 
 ## Cross Env
-Since this package uses NODE_ENV it is recommended to use the [cross-env](https://github.com/kentcdodds/cross-env) package to set the environment in your run scripts.
+Since this package uses NODE_ENV it is recommended to use the [cross-env](https://github.com/kentcdodds/cross-env) package to set the environment in your run scripts
 ```
 # gets the json file approot/env.test.json
 cross-env NODE_ENV=test node -r dot-env-json/lib/config yourfile.js
